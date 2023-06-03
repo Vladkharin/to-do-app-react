@@ -1,0 +1,59 @@
+.work-area__wrapper-item {
+    padding: 10px;
+    border-bottom: 1px solid;
+    position: relative;
+    display: flex;
+    width: 450px;
+    height: 50px;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.not-checked {
+    height: 30px;
+    width: 30px;
+    border-radius: 100%;
+    border: 1.5px solid;
+}
+
+.items-title {
+    width: 300px;
+    margin-left: 10px;
+    font-size: 20px;
+}
+
+.edit {
+    border: none;
+    background: url("icons/edit.svg") center center/cover no-repeat;
+    width: 20px;
+    height: 20px;
+}
+
+.delete {
+    background: url("icons/delete.svg") center center/cover no-repeat;
+    width: 20px;
+    height: 20px;
+    border: none;
+}
+
+.line {
+    position: absolute;
+    width: 360px;
+    height: 2px;
+    background-color: #000;
+    left: 60px;
+    top: 35px;
+}
+
+.none {
+    display: none;
+}
+
+.checked {
+    background-image: url("icons/checked.svg");
+    height: 30px;
+    width: 30px;
+    border-radius: 100%;
+    border: 1.5px solid;
+  }
